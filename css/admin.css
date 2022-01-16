@@ -1,0 +1,88 @@
+body{
+    background:url('../images/adminbg.png') no-repeat;
+    background-image: 100% 100%;
+}
+
+a{
+    text-decoration: none;
+    color:#FFF;
+}
+
+h1{
+    color: #09F;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-left:600px;
+}
+
+.do{
+    position: absolute;
+    top:50px;
+    left: 100px;
+    height: 300px;
+}
+
+.do>p{
+    width:50px;
+    height: 30px;
+    padding:20px 10px;
+    background-color: rgb(16, 120, 238);
+    color: #FFF;
+    border-radius: 50%;
+    box-shadow: 0 0 30px -5px rgb(17, 230, 201); 
+    margin: 0;
+}
+
+.do>p:nth-of-type(2){
+    margin-left: 150px;
+}
+
+.do>p:nth-of-type(3){
+    margin-left: 70px;
+}
+
+.do>p:hover{
+    background-color: rgb(45, 136, 240);
+}
+.border{
+    width:800px;
+    height: 500px;
+    position: absolute;
+    top:130px;
+    left: 280px;
+    background: url('../images/border.png') no-repeat;
+    background-size:100% 100%;
+}
+form{
+    margin: 50px 50px 100px 450px;
+}
+
+input[type='text']{
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1.5px solid #FFF;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+input[type='submit']{
+    width: 300px;
+    height: 60px;
+    border: 0;
+    outline: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+    background:rgba(255,255,255,0.05);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+input[type='submit']:hover{
+    border: 2px solid #09F;
+    color: #09F;
+}
