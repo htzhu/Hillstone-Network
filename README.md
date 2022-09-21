@@ -1,3 +1,3 @@
 # Hillstone-Network
 
-This is a web page of Hillstone Network, based on PHP+Apache.
+This is a web application project of Hillstone Network, based on PHP+Apache.
